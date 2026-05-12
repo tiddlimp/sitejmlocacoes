@@ -54,7 +54,7 @@ export default function Header() {
           {/* Logo — maior */}
           <a href="#home" className="flex items-center shrink-0 group">
             <img
-              src="/jmlogo.png"
+              src={`${import.meta.env.BASE_URL}jmlogo.png`}
               alt="JM Locações"
               className="h-16 sm:h-20 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
             />

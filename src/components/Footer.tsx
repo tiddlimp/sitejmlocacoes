@@ -46,7 +46,7 @@ export default function Footer() {
           {/* Col 1: Logo + descrição */}
           <div className="lg:col-span-1">
             <img
-              src="/jmlogo.png"
+              src={`${import.meta.env.BASE_URL}jmlogo.png`}
               alt="JM Locações"
               className="h-14 w-auto object-contain mb-5 brightness-0 invert"
             />
